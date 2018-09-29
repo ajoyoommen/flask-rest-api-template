@@ -1,0 +1,17 @@
+.git/
+
+build
+dist
+*.egg-info
+*.egg/
+*.pyc
+*.swp
+
+.tox
+.coverage
+**__pycache__**
+# **test** uncomment to exclude tests files
+
+# Compiled Documentation
+docs/_build
+Dockerfile
