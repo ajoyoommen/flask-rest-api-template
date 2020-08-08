@@ -1,5 +1,5 @@
 from flask import request
-from flask_restplus import Resource, fields
+from flask_restx import Resource, fields
 
 from sample_project.person import ns
 

@@ -1,6 +1,6 @@
 from flask import Flask
 
-from flask_restplus.apidoc import apidoc
+from flask_restx.apidoc import apidoc
 
 
 ROOT_URL = '/sample_project'

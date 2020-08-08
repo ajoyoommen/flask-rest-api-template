@@ -1,5 +1,5 @@
 from flask import Blueprint, current_app
-from flask_restplus import Api
+from flask_restx import Api
 
 from sample_project.user import ns as ns_user
 from sample_project.person import ns as ns_person

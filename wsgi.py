@@ -1,6 +1,6 @@
 import os
 
-from werkzeug.contrib.fixers import ProxyFix
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 from sample_project.app import create_app
 
